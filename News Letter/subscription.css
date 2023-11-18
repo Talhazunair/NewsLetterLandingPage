@@ -1,0 +1,89 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Roboto,'sans';
+}
+.container
+{
+    position: absolute;
+    left: 80vh;
+    top: 25vh;
+    transform: translate(-15%,-15%);
+    height: 58vh;
+    width: 58vh;
+    box-shadow: 5px 5px 15px rgb(121, 121, 121);
+    border:0;
+    border-radius: 20px;
+    background-color: white;
+}
+.container img
+{
+    position: relative;
+    left: 8vh;
+    top: 2vh;
+}
+.container h1
+{
+    font-size: 6vh;
+    width: 30vh;
+    position: relative;
+    left: 8vh;
+    top: 3vh;
+    color: rgb(6, 23, 46);
+}
+.container p
+{
+    width: 43vh;
+    position: relative;
+    left: 8vh;
+    color: rgb(6, 23, 46);
+    top: 3vh;
+}
+.container button
+{
+    height: 7vh;
+    width: 40vh;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    font-size: 2.5vh;
+    background-color: rgb(6, 23, 46);
+    border-radius: 8px;
+    position: relative;
+    left: 8vh;
+    top: 5vh;
+}
+@media screen and (max-width:768px)
+{
+    .container
+    {
+        left: 1vh;
+        box-shadow: 0 0 0 ;
+        height: 85vh;
+        top: 18vh;
+    }
+    .container img
+    {
+        left: 10vh;
+        top: 11vh;
+    }
+    .container h1
+    {
+        left: 10vh;
+        top: 12vh;
+    }
+    .container p
+    {
+        left: 10vh;
+        top: 12vh;
+    }
+    .container button
+    {
+        top: 34vh;
+        left: 11vh;
+    }
+}

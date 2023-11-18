@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap">
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>News Letter</title>
+</head>
+<body id="body">
+    <section class="container-one" id="blur">
+
+        <div class="message">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receive monthy updates on:</p>
+        </div>
+        <div class="check-status">
+            <ul>
+                <li>Product discovery and building what matters</li>
+                <li>Measuring to ensure  updates are a success</li>
+                <li>And much more!</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <form action="/subscribe.html">
+                <p class="error-msg" id="errormsg">Valid email required</p>
+                <Label>Email Address</Label>
+                <br>
+                <input type="email" required placeholder="email@company.com" id="email">
+                <br>
+                <button id="submitbtn" type="submit">Subscribe to monthly newsletter</button>
+            </form>
+        </div>
+        <div class="image">
+            <img src="/assets/images/illustration-sign-up-desktop.svg" sizes="(max-width: 768px) 100vw" alt="Responsive Image">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
